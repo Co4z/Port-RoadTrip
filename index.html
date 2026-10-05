@@ -153,6 +153,9 @@ a{color:var(--ink);font-weight:700;text-decoration-color:var(--next);text-decora
 .static .card .tags{display:flex!important}
 .static .listview-top{display:inline-flex}
 .static #quick{display:none}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0 2px}
+.shots a{display:block;text-decoration:none;color:var(--muted);font-size:11px;line-height:1.25}
+.shots img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top left;border-radius:8px;border:1px solid rgba(36,71,107,.15);margin-bottom:4px}
 .alsoline{font-size:.86em;opacity:.85;margin:6px 0}
 </style>
 
@@ -218,6 +221,13 @@ a{color:var(--ink);font-weight:700;text-decoration-color:var(--next);text-decora
       <p class="when">Data Analyst Intern · Covest Labs Co., Ltd.</p>
       <p lang="en">Poll responses by province, shown in Looker Studio dashboards that stakeholders could read at a glance. Behind them, an ETL workflow that cleaned and structured an election dataset.</p>
       <p lang="th">ทำ dashboard บน Looker Studio แสดงผลโพลแยกตามจังหวัด ให้ผู้เกี่ยวข้องอ่านเข้าใจได้ทันที เบื้องหลังคือ ETL workflow ที่ทำความสะอาดและจัดโครงสร้างข้อมูลการเลือกตั้ง</p>
+      <p class="alsoline" lang="en"><b>Side projects:</b> Looker Studio dashboards on a 2023 election survey in Roi Et Constituency 5 (1,864 respondents), the national election results, and Anutin's political quotes checked against public data.</p>
+      <p class="alsoline" lang="th"><b>โปรเจกต์เสริม:</b> dashboard บน Looker Studio จากแบบสำรวจการเลือกตั้ง 2023 ในร้อยเอ็ด เขต 5 (ผู้ตอบ 1,864 คน) ผลการเลือกตั้งระดับประเทศ และวาทะกรรมของอนุทินเทียบกับข้อมูลสาธารณะ</p>
+      <div class="shots">
+        <a href="img/roiet-survey-dashboard.png" target="_blank" rel="noopener"><img src="img/roiet-survey-dashboard.png" alt="Roi Et Constituency 5 election survey dashboard" loading="lazy"><span lang="en">Roi Et 5 survey</span><span lang="th">โพลร้อยเอ็ด เขต 5</span></a>
+        <a href="img/national-election-dashboard.png" target="_blank" rel="noopener"><img src="img/national-election-dashboard.png" alt="National election results dashboard" loading="lazy"><span lang="en">National results</span><span lang="th">ผลทั่วประเทศ</span></a>
+        <a href="img/anutin-quotes-dashboard.png" target="_blank" rel="noopener"><img src="img/anutin-quotes-dashboard.png" alt="Anutin political quotes dashboard" loading="lazy"><span lang="en">Anutin's quotes</span><span lang="th">วาทะกรรมอนุทิน</span></a>
+      </div>
       <div class="stat"><b>500+</b><span lang="en">records cleaned and structured</span><span lang="th">รายการข้อมูลที่ทำความสะอาดและจัดโครงสร้าง</span></div>
       <ul class="tags"><li>Looker Studio</li><li>ETL</li><li>Data quality</li></ul>
     </section>
